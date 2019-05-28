@@ -6,6 +6,7 @@ public final class StringUtils {
     if (str == null || str.trim().length() == 0) {
       throw new IllegalArgumentException("String must be not null or empty");
     }
+    System.out.println("HELLO");
     return null;
   }
 }
