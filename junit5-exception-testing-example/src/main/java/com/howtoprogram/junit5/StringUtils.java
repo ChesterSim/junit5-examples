@@ -7,11 +7,11 @@ public final class StringUtils {
       throw new IllegalArgumentException("String must be not null or empty");
     }
 
+
     System.out.println("HELLO");
     String[] a = "HELLO".split("");
     
     return null;
-
-  }
+    
 }
 
